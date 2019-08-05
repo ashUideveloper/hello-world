@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration  Form</h2>
+
+<form action="insert.jsp" method="POST">
+	<fieldset>
+		<legend> Personal Information</legend>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+
+   <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+   DoB:<br>
+ 
+
+  Email:<br>
+  <input type="Email" name="Email"><br>
+  Password:<br>
+  <input type="Password" name="Password"><br>
+  Confirm Password:<br>
+  <input type="Password" name="CPassword"><br>
+
+Physically challenged:<input type="checkbox" name="handicaped" value="Unfit">
+Physically Fit:<input type="checkbox" name="handicaped" value="fit"><br>
+<select name="city">
+<option value="pune">Pune</option>
+<option value="mumbai" selected>Mumbai</option>
+<option value="nashik">Nashik</option>
+<option value="banglore">Banglore</option>
+
+
+</select><br>
+
+
+
+    <input type="submit" value="Submit">
+   <!--  <button type="button" onclick="alert('hello do u want submitform')"> Submit</button> -->
+    </fieldset>
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of a text input field is 20 characters.</p>
+
+</body>
+</html>
